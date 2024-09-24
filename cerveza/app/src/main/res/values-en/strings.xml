@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">beer</string>
+    <string name="cervesita">beer</string>
+    <string name="boton">button</string>
+</resources>
