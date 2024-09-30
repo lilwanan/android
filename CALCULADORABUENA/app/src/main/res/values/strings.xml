@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CALCULADORABUENA</string>
+    <string name="sumar">sumar</string>
+    <string name="restar">restar</string>
+    <string name="multiplicar">multiplicar</string>
+    <string name="dividir">dividir</string>
+</resources>
