@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">RIESGO PERIODENTAL</string>
+    <string name="apellido">Apellido: </string>
+    <string name="nombre">Nombre:</string>
+    <string name="fecha">"Fecha: "</string>
+    <string name="titulo"> Valoracion Riesgo Periodental</string>
+    <string name="edad">Edad:</string>
+    <string name="id">"ID: "</string>
+    <string name="riesgo1">Sangrado:</string>
+    <string name="riesgo2">Ausencia Dientes:</string>
+    <string name="riesgo3">Perdida Insercion:</string>
+    <string name="riesgo4">Diabetes:</string>
+    <string name="riesgo5">Tabaco:</string>
+    <string name="riesgo6">Profundidad Bolsa:</string>
+</resources>

@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo"
+            android:textSize="20dp"
+            android:textColor="@color/colortitulo"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="15dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/apellido"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Apellido"
+            android:textSize="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nombre"
+            android:textSize="15dp"
+            android:paddingLeft="20dp"
+            android:textStyle="bold"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Nombre"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fecha"
+            android:textSize="15dp"
+            android:paddingLeft="20dp"
+            android:textStyle="bold"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Fecha"
+            android:textSize="15dp"/>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/edad"
+            android:textSize="15dp"
+            android:paddingLeft="20dp"
+            android:textStyle="bold"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Edad"
+            android:textSize="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/id"
+            android:textSize="15dp"
+            android:paddingLeft="20dp"
+            android:textStyle="bold"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="ID"
+            android:textSize="15dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/linea_separadora">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="15dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/riesgo1"
+                android:textSize="15dp"
+                android:paddingLeft="20dp"
+                android:textStyle="bold"
+                android:paddingBottom="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/riesgo2"
+                android:textSize="15dp"
+                android:paddingLeft="20dp"
+                android:textStyle="bold"
+                android:paddingBottom="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/riesgo3"
+                android:textSize="15dp"
+                android:paddingLeft="20dp"
+                android:textStyle="bold"
+                android:paddingBottom="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/riesgo4"
+                android:textSize="15dp"
+                android:paddingLeft="20dp"
+                android:textStyle="bold"
+                android:paddingBottom="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/riesgo5"
+                android:textSize="15dp"
+                android:paddingLeft="20dp"
+                android:textStyle="bold"
+                android:paddingBottom="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/riesgo6"
+                android:textSize="15dp"
+                android:paddingLeft="20dp"
+                android:textStyle="bold"
+                android:paddingBottom="20dp"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+            <EditText
+                android:id="@+id/et1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Introduce"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/et2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Introduce"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/et3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Introduce"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/et4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Introduce"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/et5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Introduce"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/et6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Introduce"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dp">
+
+            <Button
+                android:id="@+id/bt1"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/linea_separadora"
+                android:onClick="bt1"
+                android:text="Riesgo"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/bt2"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/linea_separadora"
+                android:onClick="bt2"
+                android:text="Riesgo"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/bt3"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/linea_separadora"
+                android:onClick="bt3"
+                android:text="Riesgo"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/bt4"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/linea_separadora"
+                android:onClick="bt4"
+                android:text="Riesgo"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/bt5"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/linea_separadora"
+                android:onClick="bt5"
+                android:text="Riesgo"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/bt6"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:backgroundTint="@color/linea_separadora"
+                android:onClick="bt6"
+                android:text="Riesgo"
+                android:textColor="@color/black" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="5dp">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:text="RIESGO MODERADO"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:text="RIESGO BAJO"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:text="RIESGO BAJO"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:text="RIESGO BAJO"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:text="RIESGO BAJO"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="5dp"
+                android:text="RIESGO BAJO"
+                android:textStyle="bold" />
+
+            
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/linea_separadora"
+        android:layout_marginTop="20dp">
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="50dp"
+        >
+
+        <TextView
+            android:id="@+id/tv7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+
+            android:text="TOTAL: 55% RIESGO ALTO DE ENFERMEDAD PERIODENTAL" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/vini"
+            android:layout_gravity="bottom"/>
+
+
+        
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

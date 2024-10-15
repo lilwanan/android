@@ -17,17 +17,18 @@
         android:padding="25dp">
 
         <EditText
+            android:id="@+id/et1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="Introduce numero           "
 
 
-            />
+            android:hint="Introduce numero           " />
 
         <EditText
+            android:id="@+id/et2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="Introduce numero           "/>
+            android:hint="Introduce numero           " />
 
 
 
@@ -38,51 +39,93 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
+
             <Button
+                android:id="@+id/sumar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:layout_margin="20dp"
-                android:text="@string/sumar"
-                android:padding="0dp"
                 android:layout_weight="2"
-                android:layout_gravity="center"/>
+                android:onClick="sumar"
+                android:padding="0dp"
+                android:text="@string/sumar" />
+
             <Button
+                android:id="@+id/restar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:layout_margin="20dp"
-                android:text="@string/restar"
-                android:padding="0dp"
                 android:layout_weight="2"
-                android:layout_gravity="center"/>
+                android:onClick="restar"
+                android:padding="0dp"
+                android:text="@string/restar" />
 
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
+
             <Button
+                android:id="@+id/multi"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:layout_margin="20dp"
-                android:text="@string/multiplicar"
-                android:padding="0dp"
                 android:layout_weight="2"
-                android:layout_gravity="center"/>
+                android:onClick="multiplicar"
+                android:padding="0dp"
+                android:text="@string/multiplicar" />
+
             <Button
+                android:id="@+id/division"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:layout_margin="20dp"
-                android:text="@string/dividir"
-                android:padding="0dp"
                 android:layout_weight="2"
-                android:layout_gravity="center"/>
+                android:onClick="dividir"
+                android:padding="0dp"
+                android:text="@string/dividir" />
 
         </LinearLayout>
 
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/black"
+
+        android:orientation="vertical">
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/resultado"
+            android:textSize="50sp" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/calculadora"/>
 
 
     </LinearLayout>

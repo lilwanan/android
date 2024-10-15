@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="0,1,2,3"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TableRow
+        android:background="@color/fondito">
+
+        <TextView android:text="Nombre"/>
+        <TextView android:text="DPTO"/>
+        <TextView android:text="Ciudad"/>
+        <TextView android:text="Porcentaje"/>
+        <TextView android:text="Resultado"/>
+    </TableRow>
+
+    <TableRow
+        android:background="@color/filas">
+
+        <TextView android:text="Wanan"/>
+        <TextView android:text="Marketing"/>
+        <TextView android:text="Malaga"/>
+        <TextView android:text="50"/>
+
+        <TextView
+            android:id="@+id/tv1"
+            android:text="30" />
+
+    </TableRow>
+
+    <TableRow
+        android:background="@color/white">
+
+        <TextView android:text="Wanan"/>
+        <TextView android:text="Marketing"/>
+        <TextView android:text="Malaga"/>
+        <TextView android:text="50"/>
+
+        <TextView
+            android:id="@+id/tv2"
+            android:text="40" />
+
+    </TableRow>
+
+    <TableRow
+        android:background="@color/filas">
+
+        <TextView android:text="Wanan"/>
+        <TextView android:text="Marketing"/>
+        <TextView android:text="Malaga"/>
+        <TextView android:text="50"/>
+
+        <TextView
+            android:id="@+id/tv3"
+            android:text="20" />
+
+    </TableRow>
+
+    <TableRow
+        android:background="@color/white">
+
+        <TextView android:text="Wanan"/>
+        <TextView android:text="Marketing"/>
+        <TextView android:text="Malaga"/>
+        <TextView android:text="50"/>
+
+        <TextView
+            android:id="@+id/tv4"
+            android:text="30" />
+
+    </TableRow>
+
+    <TableRow
+        android:background="@color/filas">
+
+        <TextView android:text="Wanan"/>
+        <TextView android:text="Marketing"/>
+        <TextView android:text="Malaga"/>
+        <TextView android:text="50"/>
+
+        <TextView
+            android:id="@+id/tv5"
+            android:text="30" />
+
+    </TableRow>
+
+    <TableRow
+        android:background="@color/white">
+
+        <TextView android:text="Wanan"/>
+        <TextView android:text="Marketing"/>
+        <TextView android:text="Malaga"/>
+        <TextView android:text="50"/>
+
+        <TextView
+            android:id="@+id/tv6"
+            android:text="30" />
+
+    </TableRow>
+
+    <TableRow
+        android:background="@color/fondito">
+        <TextView android:text="RESULTADO"
+            android:layout_span="4"/>
+
+        <TextView
+            android:id="@+id/res" />
+
+    </TableRow>
+
+
+
+
+</TableLayout>
