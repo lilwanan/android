@@ -38,6 +38,8 @@ public class MainActivity extends AppCompatActivity {
                     case 1:
                         tab.setText("PESTAÑA 2");
                         break;
+                    case 2:
+                        tab.setText("PESTAÑA 3");
                 }
             }
         }).attach();

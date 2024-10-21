@@ -21,6 +21,9 @@ public class MiPageAdapter extends FragmentStateAdapter {
             case 1:
                 return new Tab2();
 
+            case 2:
+                return new Tab3();
+
 
         }
         return null;

@@ -35,8 +35,9 @@ public class Tab2 extends Fragment {
                              Bundle savedInstanceState) {
        View view= inflater.inflate(R.layout.fragment_tab2, container, false);
         mVideo=view.findViewById(R.id.videoView);
-        //mVideo.setVideoURI(Uri.parse("https://www.youtube.com/watch?v=UelDrZ1aFeY/"));
-        mVideo.setVideoPath("/storage/emulated/0/video.mp4");
+        mVideo.setVideoURI(Uri.parse("android.resource://"+ getActivity().getPackageName()+"/" + R.raw.video));
+        // el metodo de arriba carga un video
+        //mVideo.setVideoPath("/storage/emulated/0/video.mp4");
         mVideo.setMediaController(new MediaController(view.getContext()));
 
         mVideo.start();
