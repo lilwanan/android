@@ -2,4 +2,9 @@
     <string name="app_name">pestanas</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="descripcion">Ademas de mi (remix)\nRusherking,Khea,Duki</string>
+    <string name="descripcion2">Milagrosa\nMilo J</string>
+    <string name="descripcion3">Bien o Mal\nTrueno</string>
+    <string name="descripcion4">Estrella\nMora</string>
+    <string name="descripcion5">Nota\nEladio Carrion, Nicki Nicole</string>
 </resources>

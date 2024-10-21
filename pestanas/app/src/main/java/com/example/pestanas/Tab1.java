@@ -7,6 +7,8 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageButton;
+import android.widget.LinearLayout;
 
 
 public class Tab1 extends Fragment {
@@ -14,10 +16,12 @@ public class Tab1 extends Fragment {
     //la vista
     //container contenido donde se tiene previsto inserta el layout y el momento
     //ya mismo con true
+    public ImageButton imgbtn;
 
 
     public Tab1() {
         // Required empty public constructor
+
     }
 
 
@@ -25,6 +29,7 @@ public class Tab1 extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
 
     }
 
