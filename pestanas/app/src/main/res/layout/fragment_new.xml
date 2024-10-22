@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tab1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Tab1"
     android:background="@color/black"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".Tab1">
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
+        android:orientation="horizontal">
 
         <TextView
             android:layout_width="match_parent"
@@ -20,8 +20,7 @@
             android:text="Para arrancar"
             android:textColor="@color/white"
             android:textSize="20dp"
-            android:textStyle="bold"/>
-
+            android:textStyle="bold" />
 
 
     </LinearLayout>
@@ -32,29 +31,27 @@
         android:orientation="horizontal">
 
         <ImageView
-            android:layout_marginTop="20dp"
             android:id="@+id/imgbut1"
             android:layout_width="120dp"
             android:layout_height="120dp"
-            android:src="@drawable/duki"
-            />
+            android:layout_marginTop="20dp"
+            android:src="@drawable/duki" />
 
         <ImageView
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="20dp"
             android:id="@+id/imgbut2"
             android:layout_width="120dp"
             android:layout_height="120dp"
-            android:src="@drawable/quevedo"
-            />
-        <ImageView
-            android:layout_marginTop="20dp"
             android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/quevedo" />
+
+        <ImageView
             android:id="@+id/imgbut3"
             android:layout_width="120dp"
             android:layout_height="120dp"
-            android:src="@drawable/milo"
-            />
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/milo" />
 
 
     </LinearLayout>
@@ -62,33 +59,33 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <TextView
-            android:layout_marginTop="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
             android:text="Recomendada para hoy"
             android:textColor="@color/white"
             android:textSize="20dp"
-            android:textStyle="bold"
-            />
+            android:textStyle="bold" />
     </LinearLayout>
 
     <HorizontalScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:orientation="horizontal">
 
             <ImageView
-                android:layout_marginTop="20dp"
-
                 android:id="@+id/imgbut4"
+
                 android:layout_width="120dp"
                 android:layout_height="120dp"
-                android:src="@drawable/ademas"
-                />
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ademas" />
 
             <ImageView
                 android:id="@+id/imgbut5"
@@ -99,32 +96,30 @@
                 android:src="@drawable/milagrosa" />
 
             <ImageView
-                android:layout_marginTop="20dp"
-                android:layout_marginLeft="20dp"
                 android:id="@+id/imgbut6"
                 android:layout_width="120dp"
                 android:layout_height="120dp"
-                android:src="@drawable/bien"
-                />
-            <ImageView
-                android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/bien" />
+
+            <ImageView
                 android:id="@+id/imgbut7"
                 android:layout_width="120dp"
                 android:layout_height="120dp"
-                android:src="@drawable/estrella"
-                />
-            <ImageView
-                android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/estrella" />
+
+            <ImageView
                 android:id="@+id/imgbut8"
                 android:layout_width="120dp"
                 android:layout_height="120dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
                 android:src="@drawable/nota"
 
                 />
-
-
 
 
         </LinearLayout>
@@ -144,7 +139,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/descripcion"
                 android:textColor="@color/descripcion"
-                android:textSize="10dp"/>
+                android:textSize="10dp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -152,7 +147,7 @@
                 android:layout_marginLeft="43dp"
                 android:text="@string/descripcion2"
                 android:textColor="@color/descripcion"
-                android:textSize="10dp"/>
+                android:textSize="10dp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -160,7 +155,7 @@
                 android:layout_marginLeft="96dp"
                 android:text="@string/descripcion3"
                 android:textColor="@color/descripcion"
-                android:textSize="10dp"/>
+                android:textSize="10dp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -168,7 +163,7 @@
                 android:layout_marginLeft="100dp"
                 android:text="@string/descripcion4"
                 android:textColor="@color/descripcion"
-                android:textSize="10dp"/>
+                android:textSize="10dp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -176,7 +171,7 @@
                 android:layout_marginLeft="100dp"
                 android:text="@string/descripcion5"
                 android:textColor="@color/descripcion"
-                android:textSize="10dp"/>
+                android:textSize="10dp" />
 
         </LinearLayout>
     </HorizontalScrollView>
@@ -187,17 +182,13 @@
         android:orientation="horizontal">
 
         <TextView
-            android:layout_marginTop="20dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
             android:text="Escuchadas recientemente"
             android:textColor="@color/white"
             android:textSize="20dp"
-            android:textStyle="bold"
-            />
-
-
-
+            android:textStyle="bold" />
 
 
     </LinearLayout>
@@ -208,21 +199,20 @@
         android:orientation="horizontal">
 
         <ImageView
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft=""
             android:id="@+id/imgbut9"
+
             android:layout_width="120dp"
             android:layout_height="120dp"
-            android:src="@drawable/quevedo"
-            />
-        <ImageView
             android:layout_marginTop="20dp"
-            android:layout_marginLeft="20dp"
+            android:src="@drawable/quevedo" />
+
+        <ImageView
             android:id="@+id/imgbut10"
             android:layout_width="120dp"
             android:layout_height="120dp"
-            android:src="@drawable/milo"
-            />
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/milo" />
 
     </LinearLayout>
 

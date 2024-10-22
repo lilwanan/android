@@ -17,6 +17,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        if (savedInstanceState == null) {
+            getSupportFragmentManager().beginTransaction().replace(R.id.padre,new Tab1()).commit();
+        }
+
         //view pager2 nuevo
         ViewPager2 viewPager2=findViewById(R.id.view_pager);
         viewPager2.setAdapter(new MiPageAdapter(this));
