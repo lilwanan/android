@@ -12,7 +12,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class MainActivity extends AppCompatActivity {
+public class FMainActivity extends AppCompatActivity {
     public Button bt1,bt2,bt3,bt4,bt5,bt6;
     public TextView tv1,tv2,tv3,tv4,tv5,tv6,tv7;
     public EditText et1,et2,et3,et4,et5,et6;
